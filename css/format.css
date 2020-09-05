@@ -39,7 +39,7 @@ nav{
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   body{
-	background: url('../image/stage2.1.jpg');
+	background: url('../image/stage1.1.jpg');
   }
   .mainpagebtn{
 	padding: 5px;
@@ -51,7 +51,7 @@ nav{
 /********************************************** Medium devices only **********************************************/
 @media (min-width: 981px) and (max-width: 1199px) {
 	body{
-	background: url('../image/stage2.1.jpg');
+	background: url('../image/stage1.1.jpg');
   }
   .mainpagebtn{
 	padding: 5px;
@@ -61,7 +61,7 @@ nav{
 /************************************************** SMALL DEVICE ***************************************************/
 @media (max-width: 980px) {
 	body{
-	background: url('../image/stage 2.1.2.jpg');
+	background: url('../image/stage 1.2.jpg');
     }
     nav{
 	height: 250px;
