@@ -35,6 +35,7 @@ nav{
 }
 
 /*************************************HOMEPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .mainpagebtn{
@@ -44,26 +45,19 @@ nav{
 }
  
 /********************************************** Medium devices only **********************************************/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 981px) and (max-width: 1199px) {
   .mainpagebtn{
 	padding: 5px;
 	margin: 7em 12em 50px 35em;
     }
 } 
 /************************************************** SMALL DEVICE ***************************************************/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 980px) {
+	.navbar-brand h1{
+		font-size:3.2em;
+	}
 .mainpagebtn{
 	padding: 5px;
-	margin: 7em 0px 0px 33em;
+	margin: 720px 0px 0px 20em;
     }
 }
-  
-/********************************************* Extra small devices only *************************************/
-@media (min-width: 200px) and (max-width: 767px) {
-.mainpagebtn{
-	padding: 5px;
-	margin: 50px 45em 0px 50em;
-    }
-}
-
-
