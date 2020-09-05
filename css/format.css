@@ -7,7 +7,7 @@ nav{
 	background-color:  #5D001E;
 	opacity: 89%;
 	height: 125px;
-	width: 100em;
+	width: 85.4em;
 }
 #sitename{
 	margin-left: 2.5em;
@@ -67,10 +67,11 @@ nav{
   
 /********************************************* Extra small devices only *************************************/
 @media (min-width: 200px) and (max-width: 767px) {
-  nav{
+ nav{
 		width: 100em;
+		height:180px;
 	}
-  .mainpagebtn{
+.mainpagebtn{
 	padding: 5px;
 	margin: 50em 45em 0px 50em;
     }
