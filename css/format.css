@@ -49,38 +49,67 @@ nav{
 }
  
 /********************************************** Medium devices only **********************************************/
-@media (min-width: 981px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 	body{
 	background: url('../image/stage1.1.jpg');
   }
   .mainpagebtn{
 	padding: 5px;
-	margin: 7em 12em 50px 35em;
+	margin: 7em 0em 50px 35em;
+} 
+}
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+	background: url('../image/stage1.1.jpg');
+  }
+  /*nav{
+  	width: 52.6em;
+  }*/
+  .navbar-brand h1{
+		font-size:2.5em;
+	}
+  .mainpagebtn{
+	padding: 5px;
+	margin: 10em 2em 0px 24em;
+    }
+   .btn{
+   	font-size: 33px;
+   }
+  #hostastage{
+	width: 280px;
+  }
+  #enterahall{
+	   width: 390px;
+	   margin-left: -1em;
+	   margin-top: 2em;
     }
 } 
 /************************************************** SMALL DEVICE ***************************************************/
-@media (max-width: 980px) {
+@media (max-width: 767px) {
 	body{
 	background: url('../image/stage 1.2.jpg');
+	background-size: cover;
     }
-    nav{
-	height: 250px;
-    }  
+     
 	.navbar-brand h1{
-		font-size:3.3em;
+		font-size:1.15em;
 	}
+	.btn{
+   	font-size: 1em;
+    }
 	.mainpagebtn{
 	    padding: 5px;
-	    margin: 69em 50px 0px 15em;
+	    margin: 20em 5px 0px 6.5em;
     }
     #hostastage{
-	    width: 500px;
-	    height: 100px;
+	    width: 150px;
+	    height:49px;
     }
     #enterahall{
-	    width: 600px;
-	    height: 100px;
-	    margin-left: -1em;
-	    margin-top: 2em;
+	    width: 200px;
+	    height: 49px;
+	    margin-left: -1.6em;
+	    margin-top: 1.2em;
     }
 }
