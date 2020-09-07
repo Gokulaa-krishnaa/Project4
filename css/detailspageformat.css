@@ -47,7 +47,7 @@ h3{
 	border-color: #1A1A1D;
 	color: #adadad;
 	border-radius: 20px;
-	font-size: 40px;
+	font-size: 35px;
 	font-family: 'Fredericka the Great', cursive;
 }
 /*************************************DETAILSPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
@@ -75,6 +75,9 @@ h3{
 	margin: 2.8em 0em 0em 3em;
 	font-size: 25px;
    }
+    #backbtn{
+   	font-size: 30px;
+   }
   }
 /************************************************** SMALL DEVICE ***************************************************/
 @media (min-width: 445px) and (max-width: 767px) {
@@ -86,6 +89,9 @@ h3{
 	margin: 2.8em 0em 0em 3em;
 	font-size: 15px;
    }
+   #backbtn{
+   	font-size: 25px;
+   }
 	
 }
 /************************************************** EXTRA-SMALL DEVICE ********************************************/
@@ -96,5 +102,8 @@ h3{
 	.btn{
 	margin: 2.0em 0em 0em 2.5em;
 	font-size: .7em;
+   }
+    #backbtn{
+   	font-size: 19px;
    }
 }
