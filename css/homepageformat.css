@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+	}
+/**************************************HOMEPAGE FORMAT*****************************************/
+/*************************************NAV BAR & TITLE BEGINS HERE *****************************************/
+nav{
+	background-color:  #5D001E;
+	opacity: 89%;
+	height: 125px;
+}
+.navbar-brand h1{
+	margin-left: 2.5em;
+	font-size: 3em;
+	font-family: 'Black Ops One', cursive;
+}
+/*************************************NAV BAR & TILE FORMAT ENDS HERE**********************************/
+
+/*************************************HOMEPAGE MAIN CONTENT FORMAT BEGINS HERE**********************************/
+.btn{
+	background-color: #1A1A1D;
+	border-color: #1A1A1D;
+	color: #adadad;
+	border-radius: 20px;
+	font-size: 44px;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+#hostastage{
+	width: 370px;
+}
+#enterahall{
+	width: 450px;
+	margin-left: -1em;
+	margin-top: 2em;
+}
+
+/*************************************HOMEPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  body{
+	background: url('../image/stage1.1.jpg');
+  }
+  .mainpagebtn{
+	padding: 5px;
+	margin: 7.3em 30px 0px 50em;/*trbl*/
+    }
+
+}
+ 
+/********************************************** Medium devices only **********************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	body{
+	background: url('../image/stage1.1.jpg');
+  }
+  .mainpagebtn{
+	padding: 5px;
+	margin: 7em 0em 50px 35em;
+} 
+}
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+	body{
+	background: url('../image/stage1.1.jpg');
+  }
+  /*nav{
+  	width: 52.6em;
+  }*/
+  .navbar-brand h1{
+		font-size:2.5em;
+	}
+  .mainpagebtn{
+	padding: 5px;
+	margin: 10em 2em 0px 24em;
+    }
+   .btn{
+   	font-size: 33px;
+   }
+  #hostastage{
+	width: 280px;
+  }
+  #enterahall{
+	   width: 390px;
+	   margin-left: -1em;
+	   margin-top: 2em;
+    }
+} 
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 401px) and (max-width: 767px) {
+	body{
+	background: url('../image/stage 1.2.jpg');
+	background-size: cover;
+    }
+     
+	.navbar-brand h1{
+		font-size:1.5em;
+	}
+	.btn{
+   	font-size: 1em;
+    }
+	.mainpagebtn{
+	    padding: 5px;
+	    margin: 20em 5px 0px 8.9em;
+    }
+    #hostastage{
+	    width: 150px;
+	    height:49px;
+    }
+    #enterahall{
+	    width: 200px;
+	    height: 49px;
+	    margin-left: -1.6em;
+	    margin-top: 1.2em;
+    }
+}
+/********************************************* EXTRA-SMALL DEVICE ***************************************************/
+@media (max-width: 400px) {
+	body{
+	background: url('../image/stage 1.2.jpg');
+	background-size: cover;
+    }
+     
+	.navbar-brand h1{
+		font-size:1em;
+	}
+	.btn{
+   	font-size: 1.1em;
+    }
+	.mainpagebtn{
+	    padding: 5px;
+	    margin: 20em 5px 0px 6.5em;
+    }
+    #hostastage{
+	    width: 150px;
+	    height:49px;
+    }
+    #enterahall{
+	    width: 200px;
+	    height: 49px;
+	    margin-left: -1.6em;
+	    margin-top: 1.2em;
+    }
+}

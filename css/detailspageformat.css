@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	}
+/**************************************HOMEPAGE FORMAT*****************************************/
+/*************************************NAV BAR & TITLE BEGINS HERE *****************************************/
+nav{
+	background-color:  #5D001E;
+	opacity: 89%;
+	height: 125px;
+}
+.navbar-brand h1{
+	margin-left: 2.5em;
+	font-size: 3em;
+	font-family: 'Black Ops One', cursive;
+}
+h3{
+	font-size: 1.9em;
+	text-align: center;
+	font-family: 'Black Ops One', cursive;
+	color: #9A1750;
+}
+/*************************************NAV BAR & TILE FORMAT ENDS HERE**********************************/
+
+/*************************************DETAILSPAGE MAIN CONTENT FORMAT BEGINS HERE**********************************/
+.input-group{
+	padding: 10px;
+}
+#stagenameinput{
+	width: 700px;
+}
+#participantscountnum{
+	font-size: 24px;
+}
+#stagepassword{
+	width: 700px;
+}
+.btn{
+	background-color: #1A1A1D;
+	border-color: #1A1A1D;
+	color: #adadad;
+	border-radius: 20px;
+	font-size: 40px;
+	font-family: 'Fredericka the Great', cursive;
+}
+#backbtn{
+	background-color: #1A1A1D;
+	border-color: #1A1A1D;
+	color: #adadad;
+	border-radius: 20px;
+	font-size: 40px;
+	font-family: 'Fredericka the Great', cursive;
+}
+/*************************************DETAILSPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.btn{
+	margin: 3em 0em 0em 4em;
+}
+}
+ 
+/********************************************** Medium devices only **********************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn{
+	margin: 2.8em 0em 0em 2em;
+	font-size: 35px;
+}
+}
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1{
+		font-size:2.5em;
+	}
+  .btn{
+	margin: 2.8em 0em 0em 3em;
+	font-size: 25px;
+   }
+  }
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 445px) and (max-width: 767px) {
+     
+	.navbar-brand h1{
+		font-size:1.5em;
+	}
+	.btn{
+	margin: 2.8em 0em 0em 3em;
+	font-size: 15px;
+   }
+	
+}
+/************************************************** EXTRA-SMALL DEVICE ********************************************/
+@media (max-width: 445px) {
+	.navbar-brand h1{
+		font-size:1.1em;
+	}
+	.btn{
+	margin: 2.0em 0em 0em 2.5em;
+	font-size: .7em;
+   }
+}
