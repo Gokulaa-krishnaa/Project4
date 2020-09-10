@@ -1,0 +1,225 @@
+*{
+  box-sizing: border-box;
+  }
+/**************************************HOMEPAGE FORMAT*****************************************/
+/*************************************NAV BAR & TITLE BEGINS HERE *****************************************/
+nav{
+  background-color:  #5D001E;
+  opacity: 89%;
+  height: 110px;
+}
+.navbar-brand h1{
+  margin-left: 2.5em;
+  font-size: 2.5em;
+  font-family: 'Black Ops One', cursive;
+}
+h3{
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: #9A1750;
+}
+.btn{
+  background-color: #1A1A1D;
+  border-color: #1A1A1D;
+  color: #adadad;
+  border-radius: 20px;
+  width: 180px;
+  font-family: 'Fredericka the Great', cursive;
+}
+#submitbtn{
+  background-color: #1A1A1D;
+  border-color: #1A1A1D;
+  color: #adadad;
+  border-radius: 20px;
+  font-family: 'Fredericka the Great', cursive;
+}
+/*************************************NAV BAR & TILE FORMAT ENDS HERE**********************************/
+
+/*************************************UPLOADPAGE MAIN CONTENT FORMAT BEGINS HERE**********************************/
+
+
+/*************************************UPLOADPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
+
+/********************************************* Large devices only ***********************************************/
+@media (min-width: 1200px) {
+ .mainarea{
+    display: flex;
+}
+.leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+}
+.rightarea{
+  flex: 1;
+}
+h3{
+  margin-top: 80px;
+  font-size: 3em;
+  }
+  #submitbtn{
+    font-size: 35px;
+    margin-top: 4.2em;
+    margin-bottom: .2em;
+    margin-left:7em;
+  }
+  .btn{
+    margin-top: 100px;
+    margin-left:9.5em;
+    font-size: 1.5em;
+  }
+  #previewarea{
+    margin: auto;
+    max-width: 700px;
+    max-height: 680px;
+  }
+}
+ 
+/********************************************** Medium devices only **********************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mainarea{
+    display: flex;
+}
+.leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+}
+.rightarea{
+  flex: 1;
+}
+h3{
+  margin-top: 80px;
+  font-size: 2em;
+  }
+  #submitbtn{
+    font-size: 35px;
+    margin-top: 4.2em;
+    margin-bottom: .2em;
+    margin-left:5em;
+  }
+  .btn{
+    margin-top: 100px;
+    margin-left:6.5em;
+    font-size: 1.5em;
+  }
+  #previewarea{
+    margin:auto;
+    max-width: 600px;
+    max-height: 680px;
+  }
+  
+}
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1{
+    font-size:2em;
+  }
+  .leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+  }
+  .rightarea{
+    display: flex;
+  }
+  h3{
+  margin:auto;
+  margin-top: 5px;
+  font-size: 2.5em;
+  flex :5;
+  }
+  #submitbtn{
+    font-size: 20px;
+    flex :1;
+  }
+  .btn{
+    font-size: 1em;
+    width: 140px;
+    flex :1;
+  }
+  #previewarea{
+    margin:auto;
+    max-width: 700px;
+    max-height: 500px;
+  }
+  }
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 484px) and (max-width: 767px) {
+     
+  .navbar-brand h1{
+    font-size:1.32em;
+  }
+  .leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+  }
+  .rightarea{
+    display: flex;
+  }
+  h3{
+  margin:auto;
+  margin-top: 5px;
+  font-size: 1.5em;
+  flex :5;
+  }
+  #submitbtn{
+    font-size: 20px;
+    flex :1;
+  }
+  .btn{
+    font-size: 1em;
+    width: 140px;
+    flex :1;
+  }
+  #previewarea{
+    margin:auto;
+    max-width: 440px;
+    max-height: 700px;
+  }
+  
+}
+/************************************************** EXTRA-SMALL DEVICE ********************************************/
+@media (max-width: 483px) {
+  .navbar-brand h1{
+    font-size:1em;
+  }
+  nav{
+    height: 65px;
+  }
+  .leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+  }
+  .rightarea{
+    display: flex;
+  }
+  h3{
+  margin:auto;
+  margin-top: 5px;
+  font-size: 1.3em;
+  flex :5;
+  }
+  #submitbtn{
+    font-size: 20px;
+    flex :1;
+  }
+  .btn{
+    font-size: .7em;
+    width: 105px;
+    height: 35px;
+    flex :1;
+  }
+  #previewarea{
+    margin:auto;
+    max-width: 280px;
+    max-height: 750px;
+  }
+}
