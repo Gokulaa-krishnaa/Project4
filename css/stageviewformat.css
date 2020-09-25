@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+	}
+/**************************************HOMEPAGE FORMAT*****************************************/
+/*************************************NAV BAR & TITLE BEGINS HERE *****************************************/
+nav{
+	background-color:  #5D001E;
+	opacity: 89%;
+	height: 125px;
+}
+.navbar-brand h1{
+	margin-left: 2.5em;
+	font-size: 2.8em;
+	font-family: 'Black Ops One', cursive;
+}
+.bi-gear{
+	margin-left: 13px;
+	font-size: 60px;
+	color: #e3e2df;
+	text-align: center;
+}
+.bi-share-fill{
+	font-size: 50px;
+	color: #e3e2df;
+	margin-top: 17.5px;
+}
+p{
+	margin-top: 8px;
+	font-family: 'Black Ops One', cursive;
+	color: #e3e2df;
+}
+/*************************************NAV BAR & TILE FORMAT ENDS HERE**********************************/
+
+/*************************************HOMEPAGE MAIN CONTENT FORMAT BEGINS HERE**********************************/
+.participantbox{
+	background-color: #652232;
+	padding: 50px;
+	width: 410px;
+	height: 430px;
+	margin:80px 20px 0px 120px;
+	float: left;
+	border-radius: 20px;
+}
+.previewimage{
+	background-color: #E3E2DF;
+	width: 310px;height: 300px;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+}
+.bi-x-square{
+	margin: 0em 0px 0px 16em;
+	font-size: 20px;
+}
+/*************************************HOMEPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
+
+
+@media (min-width: 1200px) {
+ .navbar-nav{
+    margin-left: 11.8em;
+    margin-top: 1em;
+ }
+ #shareoption{
+ 	margin-left: 2em;
+ }
+}
+ 
+/********************************************** Medium devices only **********************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .participantbox{
+  	margin-left: 80px;
+  	width:380px;padding: 35px;
+  }
+  .previewimage{
+  	width:310px;
+  	margin-left: 0px;
+  }
+  .bi-x-square{
+	margin: 0em 0px 0px 15em;
+	font-size: 20px;
+  }
+  .bi-gear{
+	font-size: 50px;
+  }
+   .bi-share-fill{
+	 font-size: 40px;
+  }
+}
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1{
+    font-size:2em;
+  }
+  .participantbox{
+	margin-left: 25%;
+}
+  
+  }
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 484px) and (max-width: 767px) {
+     
+  .navbar-brand h1{
+    font-size:1.32em;
+  }
+  .participantbox{
+  	margin-left: 10%;
+  }
+}
+/************************************************** EXTRA-SMALL DEVICE ********************************************/
+@media (max-width: 483px) {
+  .navbar-brand h1{
+    font-size:1em;
+    margin-left:10px;
+  }
+  nav{
+    height: 65px;
+  }
+  .participantbox{
+  	margin-left: 10%;
+  	width :300px;
+  	padding: 25px;
+  }
+  .bi-x-square{
+	margin: 0em 0px 0px 12.5em;
+	font-size: 20px;
+  }
+  .previewimage{
+  	width:240px;
+  	margin-left: 5px;
+  	padding: 0px;
+  }
+  
+}
+
+
+
+  
+ 
