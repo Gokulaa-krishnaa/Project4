@@ -9,7 +9,7 @@ nav{
 	height: 110px;
 }
 .navbar-brand h1{
-	margin-left: 2.5em;
+	margin-left: 2.3em;
 	font-size: 2.5em;
 	font-family: 'Black Ops One', cursive;
 }
@@ -69,7 +69,7 @@ h3{
 /************************************************** SMALL DEVICE ***************************************************/
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand h1{
-		font-size:2.5em;
+		font-size:2.2em;
 	}
   .btn{
 	margin: 2.8em 0em 0em 3em;
@@ -98,6 +98,7 @@ h3{
 @media (max-width: 483px) {
 	.navbar-brand h1{
 		font-size:1em;
+		margin-left: 1em;
 	}
 	nav{
 		height: 65px;

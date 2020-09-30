@@ -58,6 +58,10 @@ h3{
   margin-top: 80px;
   font-size: 3em;
   }
+#smtitle{
+    visibility: hidden;
+    font-size: 0px;
+  }
   #submitbtn{
     font-size: 35px;
     margin-top: 4.2em;
@@ -90,9 +94,16 @@ h3{
 .rightarea{
   flex: 1;
 }
+.leftarea h3{
+    visibility: hidden;
+  }
 h3{
   margin-top: 80px;
   font-size: 2em;
+  }
+#smtitle{
+    visibility: hidden;
+    font-size: 0px;
   }
   #submitbtn{
     font-size: 35px;
@@ -132,6 +143,9 @@ h3{
   font-size: 2.5em;
   flex :5;
   }
+  .rightarea h3{
+    visibility: hidden;
+  }
   #submitbtn{
     font-size: 20px;
     flex :1;
@@ -168,6 +182,10 @@ h3{
   font-size: 1.5em;
   flex :5;
   }
+  .rightarea h3{
+    visibility: hidden;
+  }
+  
   #submitbtn{
     font-size: 20px;
     flex :1;
@@ -206,6 +224,10 @@ h3{
   margin-top: 5px;
   font-size: 1.3em;
   flex :5;
+  
+  }
+  .rightarea h3{
+    visibility: hidden;
   }
   #submitbtn{
     font-size: 20px;
