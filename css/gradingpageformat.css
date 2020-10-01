@@ -1,0 +1,264 @@
+*{
+  box-sizing: border-box;
+  }
+/**************************************HOMEPAGE FORMAT*****************************************/
+/*************************************NAV BAR & TITLE BEGINS HERE *****************************************/
+nav{
+  background-color:  #5D001E;
+  opacity: 89%;
+  height: 110px;
+}
+.navbar-brand h1{
+  margin-left: 2.5em;
+  font-size: 2.5em;
+  font-family: 'Black Ops One', cursive;
+}
+
+.btn{
+  background-color: #1A1A1D;
+  border-color: #1A1A1D;
+  color: #adadad;
+  border-radius: 20px;
+  width: 180px;
+  font-family: 'Fredericka the Great', cursive;
+}
+/*************************************NAV BAR & TILE FORMAT ENDS HERE**********************************/
+
+/*************************************UPLOADPAGE MAIN CONTENT FORMAT BEGINS HERE**********************************/
+
+h3{
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: #9A1750;
+}
+h5{
+  text-align:left;
+  font-family: 'Black Ops One', cursive;
+  color: #9A1750;
+
+}
+
+p{
+  font-size:35px;
+  font-family: 'Fredericka the Great', cursive;
+  color: #9A1750;
+}
+/*************************************RANGE BAR EDIT STARTS HERE**********************************/
+
+
+
+/*************************************RANGE BAR EDIT ENDS HERE**********************************/
+.slider {
+  -webkit-appearance: none;
+  width: 70%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-left:30px;
+}
+.slider:hover {
+  opacity: 80%;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #5D001E;
+  border-radius: 30%;
+  cursor: pointer;
+}
+/*************************************UPLOADPAGE MAIN CONTENT FORMAT ENDS HERE**********************************/
+
+/********************************************* Large devices only ***********************************************/
+@media (min-width: 1200px) {
+ .mainarea{
+    display: flex;
+}
+.leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+}
+.rightarea{
+  flex: 1;
+  margin: auto;
+}
+.movebtn1{
+  flex:.1;
+  margin-top: 20%;
+}
+h3{
+  margin-top: 80px;
+  font-size: 3em;
+  }
+#smtitle{
+    visibility: hidden;
+    font-size: 0px;
+  }
+#smtitle .fas{
+  margin-top: -30em;
+}
+#previewarea{
+  margin: auto;
+  max-width: 700px;
+  max-height: 680px;
+  }
+#commentsection{
+  margin:20px 20px 20px 180px;
+}
+}
+ 
+/********************************************** Medium devices only **********************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mainarea{
+    display: flex;
+}
+.leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+}
+.rightarea{
+  flex: 1;
+}
+.leftarea h3{
+    visibility: hidden;
+  }
+h3{
+  margin-top: 80px;
+  font-size: 2em;
+  }
+  .movebtn1{
+  flex:.1;
+  margin-top: 20%;
+}
+#smtitle{
+    visibility: hidden;
+    font-size: 0px;
+  }
+#smtitle .fas{
+  margin-top: -30em;
+}
+#previewarea{
+  margin:auto;
+  max-width: 600px;
+  max-height: 680px;
+}
+ #commentsection{
+  margin:20px 20px 20px 150px;
+} 
+}
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1{
+    font-size:2em;
+  }
+  .leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+  }
+  
+  .movebtn1{
+  visibility: hidden;
+   }
+  h3{
+  margin:auto;
+  margin-top: 5px;
+  font-size: 2.5em;
+  flex :5;
+  }
+  .rightarea h3{
+    font-size: 0px;
+    visibility: hidden;
+  }
+  #previewarea{
+    margin:auto;
+    max-width: 700px;
+    max-height: 500px;
+  }
+  #commentsection{
+  margin:20px 20px 20px 150px;
+}
+  }
+/************************************************** SMALL DEVICE ***************************************************/
+@media (min-width: 484px) and (max-width: 767px) {
+     
+  .navbar-brand h1{
+    font-size:1.32em;
+  }
+  .leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+  }
+  
+  h3{
+  margin:auto;
+  margin-top: 5px;
+  font-size: 1.5em;
+  flex :5;
+  }
+  .movebtn1{
+  visibility: hidden;
+   }
+  .rightarea h3{
+    font-size: 0px;
+    visibility: hidden;
+  }
+  #previewarea{
+    margin:auto;
+    max-width: 440px;
+    max-height: 700px;
+  }
+  #commentsection{
+  margin:20px 20px 20px 100px;
+  }
+}
+/************************************************** EXTRA-SMALL DEVICE ********************************************/
+@media (max-width: 483px) {
+  .navbar-brand h1{
+    font-size:1em;
+    margin-left:10px;
+  }
+  nav{
+    height: 65px;
+  }
+  .leftarea{
+  padding :25px;
+  margin:5px 5px 5px 5px;
+  flex:1;
+  display: flex;
+  }
+  
+  .rightarea h3{
+    font-size: 0px;
+    visibility: hidden;
+  }
+  h3{
+  margin:auto;
+  margin-top: 5px;
+  font-size: 1.5em;
+  flex :5;
+  
+  }
+  .movebtn1{
+  visibility: hidden;
+   }
+  #previewarea{
+    margin:auto;
+    max-width: 280px;
+    max-height: 750px;
+  }
+  #commentsection{
+  margin:20px 20px 20px 20px;
+}
+}
